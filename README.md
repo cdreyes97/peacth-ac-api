@@ -2,7 +2,7 @@
 * [Documentación API](#api)
 * [Ayudas](#ayudas)
 
-* [Tecnologias](#tec)
+* [Tecnologias](#tec) 
 
 
 <div id='inicio' />
