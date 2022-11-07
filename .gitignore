@@ -3,3 +3,4 @@ api/migrations/__pycache__/
 api/__pycache__/
 PeacthAC/__pycache__/
 peacth-ac-env/
+.venv/

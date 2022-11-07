@@ -182,6 +182,6 @@ EMAIL_PORT = 587
 
 EMAIL_HOST_USER = 'noreply.kinewen@gmail.com' 
 
-EMAIL_HOST_PASSWORD = 'FeriaDeSoftware2021!'
+EMAIL_HOST_PASSWORD = 'pipqvuweybmydkyx'
 
 EMAIL_USE_TLS = True 

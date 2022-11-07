@@ -368,7 +368,7 @@ class ClinicalControlViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['get'])
     def get_last(self, request, pk=None):
 
-        last = ClinicalControl.objects.filter(patientCode=pk).order_by('-_id')[0]
+        last = ClinicalControl.objects.filter(patientCode=pk).order_by('-_id').first()
 
         serializer = self.serializer_class(last)
 
