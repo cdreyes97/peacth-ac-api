@@ -349,6 +349,9 @@ class ClinicalControlViewSet(viewsets.ModelViewSet):
             initialDate = patient.initialDate
             newDate = request_data['controlDate'].split('-')
             controlDate = datetime.date(int(newDate[0]),int(newDate[1]),int(newDate[2]))
+            if type(initialDate) != datetime.date:
+                iDate = initialDate.split('-')
+                initialDate = datetime.date(int(iDate[0]), int(iDate[1]), int(iDate[2]))
             delta = controlDate - initialDate
             patient.totalDays = delta.days
             #print(delta.days)
