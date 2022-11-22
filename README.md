@@ -65,7 +65,7 @@ This method calculate the dose of the patients
 	"initialDose": 8.543749816393767 
 	}
 	```
-### Registra visitas
+### Registra visita
 #### Ver todos los controles registrados [GET]
 This method allows us to see all the information about medical checks.
 - https://peacth-ac-backend.herokuapp.com/api/clinical_control/
